@@ -1,0 +1,39 @@
+   create table Aluno(
+    -> idAluno int primary key auto_increment,
+    -> NomeAluno varchar(30) not null,
+    -> Sobrenome varchar(30) not null,
+    -> CPF varchar(14) not null,
+    -> DataNasc date not null,
+    -> Matricula varchar(10),
+    -> Email varchar(50)
+);
+
+desc aluno; (ver a tebela)
+drop (excluir)
+
+alter (alterar)
+
+add (adciona)
+
+
+add column idade varchar(10) not null;
+
+
+
+
+
+
+Create database  "criar tabela"
+use database   "usar banco de dados
+show databases "mostrar banco de dados"
+show table "mostrar tabela"
+create table " criar tabela"
+drop table "excluir tabela"
+alter table "alterar tabela"
+change  "alterar"
+add column " adicionar coluna"
+drop column "excluir coluna"
+desc nome tabela "exibe tabela"
+ 
+
+insert into aluno(Nomealuno, sobrenome, cpf, datanasc, matricula, email) values("Luis", "Henrique", "878.787.878-87", "1991-12-13", "M0013", "luisdev1991@gmail.com");
